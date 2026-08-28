@@ -1,0 +1,972 @@
+{
+  "_version": 1,
+  "_ts": 1787933625.681291,
+  "tools": {
+    "subfinder": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/subfinder",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "assetfinder": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/assetfinder",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "chaos": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/chaos",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "amass": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/amass",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "puredns": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/puredns",
+      "version": "puredns v2.1.1",
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "massdns": {
+      "status": "present",
+      "path": "/usr/local/bin/massdns",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "shuffledns": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/shuffledns",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "dnsx": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/dnsx",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "alterx": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/alterx",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "tlsx": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/tlsx",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "hakrevdns": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/hakrevdns",
+      "version": "Usage:",
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "dnsreaper": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/dnsreaper",
+      "version": "usage: ",
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "asnmap": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/asnmap",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "mapcidr": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/mapcidr",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "cdncheck": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/cdncheck",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "uncover": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/uncover",
+      "version": null,
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "knockpy": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/knockpy",
+      "version": "usage: KNOCKPY [-h] [-d [DOMAIN]] [-f FILE] [--recon] [--bruteforce]",
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "sublert": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/sublert",
+      "version": "usage: sublert.py [-h] [-u TARGET] [-q [QUESTION]] [-d REMOVE_DOMAIN]",
+      "source": "binary",
+      "category": "recon-dns"
+    },
+    "httpx": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/httpx",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "katana": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/katana",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "hakrawler": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/hakrawler",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "gospider": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/gospider",
+      "version": "Fast web spider written in Go - v1.1.6 by @thebl4ckturtle & @j3ssiejjj",
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "cariddi": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/cariddi",
+      "version": "Usage of cariddi:",
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "gau": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/gau",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "waybackurls": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/waybackurls",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "waymore": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/waymore",
+      "version": "usage: waymore [-h] [-i INPUT] [-n] [-mode {U,R,B}] [-oU OUTPUT_URLS]",
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "urlfinder": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/urlfinder",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "getJS": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/getJS",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "jsluice": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/jsluice",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "xnLinkFinder": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/xnLinkFinder",
+      "version": null,
+      "source": "binary",
+      "category": "http-crawl"
+    },
+    "arjun": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/arjun",
+      "version": "usage: arjun [-h] [-u URL] [-o JSON_FILE] [-oT TEXT_FILE] [-oB [BURP_PROXY]]",
+      "source": "binary",
+      "category": "params-js"
+    },
+    "x8": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/x8",
+      "version": "[#] A target was not provided",
+      "source": "binary",
+      "category": "params-js"
+    },
+    "qsreplace": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/qsreplace",
+      "version": null,
+      "source": "binary",
+      "category": "params-js"
+    },
+    "unfurl": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/unfurl",
+      "version": null,
+      "source": "binary",
+      "category": "params-js"
+    },
+    "anew": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/anew",
+      "version": null,
+      "source": "binary",
+      "category": "params-js"
+    },
+    "gf": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/gf",
+      "version": null,
+      "source": "binary",
+      "category": "params-js"
+    },
+    "kxss": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/kxss",
+      "version": null,
+      "source": "binary",
+      "category": "params-js"
+    },
+    "airixss": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/airixss",
+      "version": "_____ _     _",
+      "source": "binary",
+      "category": "params-js"
+    },
+    "dalfox": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/dalfox",
+      "version": "unknown shorthand flag: 'v' in -version",
+      "source": "binary",
+      "category": "xss"
+    },
+    "XSStrike": {
+      "status": "missing",
+      "path": null,
+      "version": null,
+      "source": "missing",
+      "category": "xss"
+    },
+    "byp4xx": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/byp4xx",
+      "version": "\u001b[92m    __                 \u001b[91m__ __           ",
+      "source": "binary",
+      "category": "other"
+    },
+    "ffuf": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/ffuf",
+      "version": "ffuf version: 2.1.0-dev",
+      "source": "binary",
+      "category": "content"
+    },
+    "gobuster": {
+      "status": "present",
+      "path": "/usr/bin/gobuster",
+      "version": null,
+      "source": "binary",
+      "category": "content"
+    },
+    "dirsearch": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/dirsearch",
+      "version": null,
+      "source": "binary",
+      "category": "content"
+    },
+    "fff": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/fff",
+      "version": null,
+      "source": "binary",
+      "category": "content"
+    },
+    "feroxbuster": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/feroxbuster",
+      "version": "feroxbuster 2.13.1",
+      "source": "binary",
+      "category": "content"
+    },
+    "kiterunner": {
+      "status": "present",
+      "path": "/usr/local/bin/kr",
+      "version": "kite is a context based webscanner that uses common",
+      "source": "binary",
+      "category": "content"
+    },
+    "naabu": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/naabu",
+      "version": null,
+      "source": "binary",
+      "category": "ports"
+    },
+    "nmap": {
+      "status": "present",
+      "path": "/usr/bin/nmap",
+      "version": "Nmap version 7.991 ( https://nmap.org )",
+      "source": "binary",
+      "category": "ports"
+    },
+    "masscan": {
+      "status": "present",
+      "path": "/usr/bin/masscan",
+      "version": "Masscan version 1.3.2 ( https://github.com/robertdavidgraham/masscan )",
+      "source": "binary",
+      "category": "ports"
+    },
+    "smap": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/smap",
+      "version": "Smap 0.2.0",
+      "source": "binary",
+      "category": "ports"
+    },
+    "httprobe": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/httprobe",
+      "version": null,
+      "source": "binary",
+      "category": "ports"
+    },
+    "meg": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/meg",
+      "version": null,
+      "source": "binary",
+      "category": "ports"
+    },
+    "gowitness": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/gowitness",
+      "version": "_ _                   ",
+      "source": "binary",
+      "category": "screenshots"
+    },
+    "aquatone": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/aquatone",
+      "version": "aquatone v1.7.0",
+      "source": "binary",
+      "category": "screenshots"
+    },
+    "nuclei": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/nuclei",
+      "version": null,
+      "source": "binary",
+      "category": "scanning"
+    },
+    "nikto": {
+      "status": "present",
+      "path": "/usr/bin/nikto",
+      "version": "Nikto 2.6.0 (LW 2.5)",
+      "source": "binary",
+      "category": "scanning"
+    },
+    "sqlmap": {
+      "status": "present",
+      "path": "/usr/bin/sqlmap",
+      "version": "1.10.7#stable",
+      "source": "binary",
+      "category": "scanning"
+    },
+    "ghauri": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/ghauri",
+      "version": "________.__                        .__  {1.4.3}",
+      "source": "binary",
+      "category": "scanning"
+    },
+    "log4j-scan": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/log4j-scan",
+      "version": "[\u2022] CVE-2021-44228 - Apache Log4j RCE Scanner",
+      "source": "binary",
+      "category": "scanning"
+    },
+    "crlfuzz": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/crlfuzz",
+      "version": null,
+      "source": "binary",
+      "category": "scanning"
+    },
+    "interactsh-client": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/interactsh-client",
+      "version": null,
+      "source": "binary",
+      "category": "scanning"
+    },
+    "notify": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/notify",
+      "version": null,
+      "source": "binary",
+      "category": "scanning"
+    },
+    "subzy": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/subzy",
+      "version": null,
+      "source": "binary",
+      "category": "scanning"
+    },
+    "wafw00f": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/wafw00f",
+      "version": "Usage: wafw00f url1 [url2 [url3 ... ]]",
+      "source": "binary",
+      "category": "waf"
+    },
+    "whatwaf": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/whatwaf",
+      "version": "\u001b[38m[21:43:55]\u001b[0m\u001b[32m[INFO] currently running on: linux\u001b[0m",
+      "source": "binary",
+      "category": "waf"
+    },
+    "unwaf": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/unwaf",
+      "version": "__",
+      "source": "binary",
+      "category": "waf"
+    },
+    "aws": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/aws",
+      "version": "aws-cli/2.36.29 Python/3.14.6 Linux/7.2.0-1-cachyos exe/x86_64.cachyos",
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "s3scanner": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/s3scanner",
+      "version": null,
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "sisakulint": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/sisakulint",
+      "version": "Tool version: v0.3.6",
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "wscat": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/wscat",
+      "version": "Usage: wscat [options] (--listen <port> | --connect <url>)",
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "wsdump": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/wsdump",
+      "version": "usage: wsdump [-h] [-p PROXY] [-v [VERBOSE]] [-n] [-r] [-s [SUBPROTOCOLS ...]]",
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "cloud_enum": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/cloud_enum",
+      "version": "usage: cloud_enum [-h] (-k KEYWORD | -kf KEYFILE) [-m MUTATIONS] [-b BRUTE]",
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "cloudfail": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/cloudfail",
+      "version": "____ _                 _ _____     _ _",
+      "source": "binary",
+      "category": "cloud-cicd"
+    },
+    "scoutsuite": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/scout",
+      "version": "Scout Suite 5.14.0",
+      "source": "binary",
+      "category": "other"
+    },
+    "trufflehog": {
+      "status": "present",
+      "path": "/usr/bin/trufflehog",
+      "version": "trufflehog dev",
+      "source": "binary",
+      "category": "secrets"
+    },
+    "gitleaks": {
+      "status": "present",
+      "path": "/usr/bin/gitleaks",
+      "version": "version is set by build process",
+      "source": "binary",
+      "category": "secrets"
+    },
+    "shhgit": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/shhgit",
+      "version": null,
+      "source": "binary",
+      "category": "secrets"
+    },
+    "noseyparker": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/noseyparker",
+      "version": "noseyparker 0.24.0",
+      "source": "binary",
+      "category": "secrets"
+    },
+    "git-hound": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/git-hound",
+      "version": "GitHound makes it easy to find exposed API keys on GitHub using pattern matching",
+      "source": "binary",
+      "category": "secrets"
+    },
+    "GitDorker": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/GitDorker",
+      "version": "/$$$$$$  /$$   /$$           /$$$$$$$                      /$$",
+      "source": "binary",
+      "category": "secrets"
+    },
+    "GitTools": {
+      "status": "missing",
+      "path": null,
+      "version": null,
+      "source": "missing",
+      "category": "secrets"
+    },
+    "dvcs-ripper": {
+      "status": "missing",
+      "path": null,
+      "version": null,
+      "source": "missing",
+      "category": "other"
+    },
+    "ds_store_exp": {
+      "status": "missing",
+      "path": null,
+      "version": null,
+      "source": "missing",
+      "category": "other"
+    },
+    "apkleaks": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/apkleaks",
+      "version": null,
+      "source": "binary",
+      "category": "other"
+    },
+    "semgrep": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/semgrep",
+      "version": "1.172.0",
+      "source": "binary",
+      "category": "other"
+    },
+    "graphql-cop": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/graphql-cop",
+      "version": "Usage: graphql-cop.py -t http://example.com -o json",
+      "source": "binary",
+      "category": "auth"
+    },
+    "graphw00f": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/graphw00f",
+      "version": null,
+      "source": "binary",
+      "category": "auth"
+    },
+    "clairvoyance": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/clairvoyance",
+      "version": null,
+      "source": "binary",
+      "category": "auth"
+    },
+    "gqlmap": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/gqlmap",
+      "version": null,
+      "source": "binary",
+      "category": "auth"
+    },
+    "jwt_tool": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/jwt_tool",
+      "version": "usage: jwt_tool.py [-h] [-b] [-t TARGETURL] [-r REQUEST] [-rt RATE] [-i]",
+      "source": "binary",
+      "category": "auth"
+    },
+    "trevorspray": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/trevorspray",
+      "version": "\u001b[1;38;5;69m[INFO]\u001b[0m Command: /home/harsh/.local/bin/trevorspray -h",
+      "source": "binary",
+      "category": "auth"
+    },
+    "kerbrute": {
+      "status": "present",
+      "path": "/home/harsh/go/bin/kerbrute",
+      "version": "__             __               __     ",
+      "source": "binary",
+      "category": "auth"
+    },
+    "smbmap": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/smbmap",
+      "version": null,
+      "source": "binary",
+      "category": "auth"
+    },
+    "certipy": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/certipy",
+      "version": null,
+      "source": "binary",
+      "category": "auth"
+    },
+    "cupp": {
+      "status": "present",
+      "path": "/home/harsh/.local/bin/cupp",
+      "version": "usage: cupp [-h] [-i | -v | -q]",
+      "source": "binary",
+      "category": "other"
+    },
+    "impacket": {
+      "status": "missing",
+      "path": null,
+      "version": null,
+      "source": "missing",
+      "category": "auth"
+    },
+    "scope_checker": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/scope_checker.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "eol_check": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/eol_check.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "intel_engine": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/intel_engine.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "tech_cve_intel": {
+      "status": "present",
+      "path": "/home/harsh/.config/opencode/skills/tech-cve-intel/scripts/tech_cve_intel.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "scanplate": {
+      "status": "present",
+      "path": "/home/harsh/.config/opencode/skills/custom-scanner-kit/scripts/scanplate.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "hunt": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/hunt.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "lead_board": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/lead_board.py",
+      "version": null,
+      "source": "python-script",
+      "category": "custom"
+    },
+    "recon_engine": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/recon_engine.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "takeover_scanner": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/takeover_scanner.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "cve_scan": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/cve_scan.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "vuln_scanner": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/vuln_scanner.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "bypass_403": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/bypass_403.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "cloud_recon": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/cloud_recon.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "cicd_scanner": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/cicd_scanner.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "param_discovery": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/param_discovery.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "secrets_hunter": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/secrets_hunter.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "spray_orchestrator": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/spray_orchestrator.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "osint_employees": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/osint_employees.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "wordlist_engine": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/wordlist_engine.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    },
+    "scope_aggregator": {
+      "status": "present",
+      "path": "/home/harsh/tools/claude-bug-bounty/tools/scope_aggregator.sh",
+      "version": null,
+      "source": "shell-script",
+      "category": "custom"
+    }
+  },
+  "categories": {
+    "recon-dns": [
+      "subfinder",
+      "assetfinder",
+      "chaos",
+      "amass",
+      "puredns",
+      "massdns",
+      "shuffledns",
+      "dnsx",
+      "alterx",
+      "tlsx",
+      "hakrevdns",
+      "dnsreaper",
+      "asnmap",
+      "mapcidr",
+      "cdncheck",
+      "uncover",
+      "knockpy",
+      "sublert"
+    ],
+    "http-crawl": [
+      "httpx",
+      "katana",
+      "hakrawler",
+      "gospider",
+      "cariddi",
+      "gau",
+      "waybackurls",
+      "waymore",
+      "urlfinder",
+      "getJS",
+      "jsluice",
+      "xnLinkFinder"
+    ],
+    "params-js": [
+      "arjun",
+      "x8",
+      "qsreplace",
+      "unfurl",
+      "anew",
+      "gf",
+      "kxss",
+      "airixss"
+    ],
+    "xss": [
+      "dalfox",
+      "XSStrike"
+    ],
+    "other": [
+      "byp4xx",
+      "scoutsuite",
+      "dvcs-ripper",
+      "ds_store_exp",
+      "apkleaks",
+      "semgrep",
+      "cupp"
+    ],
+    "content": [
+      "ffuf",
+      "gobuster",
+      "dirsearch",
+      "fff",
+      "feroxbuster",
+      "kiterunner"
+    ],
+    "ports": [
+      "naabu",
+      "nmap",
+      "masscan",
+      "smap",
+      "httprobe",
+      "meg"
+    ],
+    "screenshots": [
+      "gowitness",
+      "aquatone"
+    ],
+    "scanning": [
+      "nuclei",
+      "nikto",
+      "sqlmap",
+      "ghauri",
+      "log4j-scan",
+      "crlfuzz",
+      "interactsh-client",
+      "notify",
+      "subzy"
+    ],
+    "waf": [
+      "wafw00f",
+      "whatwaf",
+      "unwaf"
+    ],
+    "cloud-cicd": [
+      "aws",
+      "s3scanner",
+      "sisakulint",
+      "wscat",
+      "wsdump",
+      "cloud_enum",
+      "cloudfail"
+    ],
+    "secrets": [
+      "trufflehog",
+      "gitleaks",
+      "shhgit",
+      "noseyparker",
+      "git-hound",
+      "GitDorker",
+      "GitTools"
+    ],
+    "auth": [
+      "graphql-cop",
+      "graphw00f",
+      "clairvoyance",
+      "gqlmap",
+      "jwt_tool",
+      "trevorspray",
+      "kerbrute",
+      "smbmap",
+      "certipy",
+      "impacket"
+    ],
+    "custom": [
+      "scope_checker",
+      "eol_check",
+      "intel_engine",
+      "tech_cve_intel",
+      "scanplate",
+      "hunt",
+      "lead_board",
+      "recon_engine",
+      "takeover_scanner",
+      "cve_scan",
+      "vuln_scanner",
+      "bypass_403",
+      "cloud_recon",
+      "cicd_scanner",
+      "param_discovery",
+      "secrets_hunter",
+      "spray_orchestrator",
+      "osint_employees",
+      "wordlist_engine",
+      "scope_aggregator"
+    ]
+  }
+}

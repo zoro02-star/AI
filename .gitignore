@@ -1,0 +1,35 @@
+# Sensitive / live data — never commit
+findings/
+recon/
+reports/
+memory/
+hunt-memory/
+leads/
+.private/
+config.json
+*.burp
+*.json.bak
+
+# Credentials / tokens
+.env
+secrets.txt
+api_keys.txt
+.temp.md
+*.pem
+*.key
+
+# Local environment / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+*.egg-info/
+
+# OS / tool junk
+.DS_Store
+*.log
+nmap-output/
+.atlas/
+.forge/
